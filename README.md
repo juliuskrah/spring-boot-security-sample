@@ -24,8 +24,8 @@ Maven
 
 # Running the source
 ## Windows
-A batch script has been provided on the root of the repository _mvnw.bat_ - a maven wrapper
+A batch script has been provided on the root of the repository _mvnw.bat validate_ - a maven wrapper
 Just run this script and all the maven dependencies will be downloaded
 ## Unix
-On Unix systems a shell script is provided on the root of the repository _mvnw_ - a maven wrapper
+On Unix systems a shell script is provided on the root of the repository _mvnw validate_ - a maven wrapper
 Juat run this script from the bash shell and get all the maven dependencies
