@@ -24,8 +24,12 @@ Maven
 
 # Running the source
 ## Windows
-A batch script has been provided on the root of the repository _mvnw.bat spring-boot:run_ - a maven wrapper
+A batch script has been provided on the root of the repository _mvnw.cmd spring-boot:run_ - a maven wrapper
 Just run this script and all the maven dependencies will be downloaded
 ## Unix
 On Unix systems a shell script is provided on the root of the repository _mvnw spring-boot:run_ - a maven wrapper
-Juat run this script from the bash shell and get all the maven dependencies
+
+This will start a tomcat instance on port:8080. Next visit [http://localhost:8080/](http://localhost:8080) to run the application.
+This is a spring-boot application with spring-security, you'd be prompted to authenticate. Use this credentials:
+Username: _user_
+Password: _password_
