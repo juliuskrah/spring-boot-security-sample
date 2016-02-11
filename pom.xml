@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.jipasoft</groupId>
-	<artifactId>lands-commission</artifactId>
+	<artifactId>spring-boot-security-sample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>lands-commission</name>
-	<description>Project for the Ghana Lands Commision</description>
+	<name>spring-boot-security-sample</name>
+	<description>Spring-boot sample with spring-security</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -47,11 +47,6 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
@@ -64,6 +59,7 @@
 	</dependencies>
 	
 	<build>
+		<finalName>spring-boot-security-sample</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
