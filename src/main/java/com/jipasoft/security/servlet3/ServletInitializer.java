@@ -1,9 +1,9 @@
-package com.jipasoft.lands.servlet3;
+package com.jipasoft.security.servlet3;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.web.SpringBootServletInitializer;
 
-import com.jipasoft.lands.config.SpringConfig;
+import com.jipasoft.security.config.SpringConfig;
 
 public class ServletInitializer extends SpringBootServletInitializer {
 

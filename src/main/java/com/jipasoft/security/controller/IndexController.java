@@ -1,4 +1,4 @@
-package com.jipasoft.lands.controller;
+package com.jipasoft.security.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
